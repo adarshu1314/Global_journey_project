@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS", // ✅ Set this to "CommonJS" to work with ts-node
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "./"
+  },
+  "include": ["backend/**/*.ts"],
+  "exclude": ["node_modules"]
+}
